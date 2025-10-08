@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo Kahlu Cerámica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Hero -->
+    <header class="hero">
+      <img src="logo2.png" alt="Logo de la tienda" class="logo" />
+      <button id="catalogoBtn">Ver Catálogo</button>
+    </header>
+
+    <!-- Galería -->
+    <section id="catalogo" class="gallery">
+      <!-- Las cards se generan con JS -->
+    </section>
+
+    <!-- Modal con flechas para carrusel -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <button id="prevBtn" class="carousel-btn">&#10094;</button>
+        <img id="modalImg" src="" alt="Producto" />
+        <button id="nextBtn" class="carousel-btn">&#10095;</button>
+        <h3 id="modalTitle"></h3>
+        <p id="modalPrice"></p>
+        <p id="modalDesc"></p>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
