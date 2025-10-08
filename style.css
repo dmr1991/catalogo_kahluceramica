@@ -75,7 +75,7 @@ header button {
 }
 
 header button:hover {
-  background: #A2674C;
+  background: #a2674c;
 }
 
 /* Galería */
@@ -217,20 +217,19 @@ header button:hover {
   position: absolute;
   top: 10px;
   right: 15px;
-  font-size: 2rem;          /* más grande */
+  font-size: 2rem; /* más grande */
   font-weight: bold;
-  color: #fff;               /* blanco sobre fondo oscuro */
+  color: #d3d3d3; /* color de relleno */
+  -webkit-text-stroke: 2px #ffffff; /* contorno negro */
   cursor: pointer;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* como un stroke */
   border-radius: 50%;
   padding: 5px 10px;
   transition: background 0.2s;
 }
 
 .close-btn:hover {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
 }
-
 
 /* Responsive */
 @media (max-width: 600px) {
